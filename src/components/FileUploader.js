@@ -1,5 +1,11 @@
 import { useState } from "react";
 
+/**
+ * FileUploader Component
+ * 
+ * This component allows users to select a file from their computer.
+ * It displays a button to open the file selector and shows the selected file's name.
+ */
 export default function FileUploader() {
   const [selectedFile, setSelectedFile] = useState(null);
 
